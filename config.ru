@@ -1,7 +1,7 @@
 # This file is used by Rack-based servers to start the application.
 
 # Set up gems listed in the Gemfile.
-gemfile = File.expand_path('../../Gemfile', __FILE__)
+gemfile = File.expand_path('../Gemfile', __FILE__)
 begin
   require 'bundler'
   Bundler.setup
